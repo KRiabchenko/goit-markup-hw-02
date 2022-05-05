@@ -1,0 +1,19 @@
+body {
+    background-color: #E5E5E5;;
+    color: #757575;
+    font-family: Roboto;
+}
+
+/* цвет основного текста #757575 */
+/* вторичный цвет #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+.logo {
+    color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}

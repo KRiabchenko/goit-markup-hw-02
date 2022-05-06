@@ -1,19 +1,83 @@
-body {
-    background-color: #E5E5E5;;
-    color: #757575;
-    font-family: Roboto;
-}
-
 /* цвет основного текста #757575 */
 /* вторичный цвет #212121 */
 /* белый #FFFFFF */
 /* акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
+/* цвет фона #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bgc-color: #F5F4FA;
+    --hero-bgc-color: #2F303A;
+    --white-color: #ffffff;
+}
+
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bgc-color);
+}
 
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .list {
     list-style: none;
 }
+
+/* Site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+    color: var(--white-color);
+    background-color: var(--hero-bgc-color);
+    }
+
+    /* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.features .title {
+    color: var(--title-text-color);
+}
+
+/* Work */
+
+.work .title {
+    color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--white-color);
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    border-color: var(--accent-color);
+}
+
+.button.link:hover,
+.button.link:focus {
+    color: var(--accent-color);
+}
+

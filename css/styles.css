@@ -38,6 +38,10 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 /* Hero */
 
 .hero-title {

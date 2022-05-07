@@ -85,3 +85,8 @@ body {
     color: var(--accent-color);
 }
 
+
+/* Section Portfolio */
+.foto .title {
+    color: var(--title-text-color);
+}

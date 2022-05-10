@@ -106,7 +106,6 @@ body {
 }
 
 .features .text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -122,7 +121,6 @@ body {
 }
     
 .work .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -141,6 +139,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .button.primary {
@@ -160,6 +159,38 @@ body {
     color: var(--accent-color);
 }
 
+.cursor {
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--hero-bgc-color);
+}
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-accent {
+    color: var(--white-color)
+}
+
+.footer-nav {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.footer-nav .link:hover,
+.footer-nav .link:focus {
+    color: var(--accent-color);
+}
 
 /* Page Portfolio */
 .foto .title {
@@ -174,8 +205,9 @@ body {
 }
 
 .foto .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
+
+
